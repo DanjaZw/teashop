@@ -1,0 +1,173 @@
+html{
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body{
+  width: auto;
+  height; auto;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav{
+  flex-grow: 1;
+  text-align: right;
+  display: block;
+  color: seashell;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  color: seashell;
+}
+
+a{
+  color: seashell;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  z-index: 1;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  margin-top: 0;
+  }
+
+.logo{
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.container{
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  padding-top: 70px;
+  opacity: 0.9;
+}
+
+.main{
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+#mission{
+  background-color: black;
+  margin: auto;
+  width: 100%;
+  vertical-align: center;
+  position: relative;
+  top: 200px;
+  opacity: 0.9;
+}
+
+h2, h4{
+  margin: 0;
+  padding: 10px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.sub{
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tea{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.item{
+  padding: 5px;
+  display: inline-block;
+}
+
+.locations{
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  width: 1200px;
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title{
+  top: 50px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+ li{
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  background-color: black;
+  position: relative;
+  top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.down, .east, .oak{
+  display: inline-block;
+  margin: 20px;
+  opacity: 1;
+  margin-top: 5px;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.adress, .spec, .place{
+  padding: 20px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.spec{
+  font-style: italic;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+}
+
+.contact{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 0.65rem;
+}
+
+#copyright{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 0.65rem;
+}
